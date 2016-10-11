@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Working with the DOM</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-pink.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+
+<body class="w3-theme-light">
+
+<div class="container w3-panel w3-round-xlarge mybdr">
+    <header class="w3-panel w3-round head" >
+        <h1>Working With the DOM</h1>
+        <p>Use the Document Object Model Node functions to create opening and closing panels through
+            JavaScript - bonus - include the Material Design Icons and change them. Try some variations,
+            include images or lists, and have at least six panels.</p>
+    </header>
+
+    <div class="w3-panel w3-round-xlarge mybdr">
+        <div class="w3-panel w3-round-large w3-grey">
+            <h2>Weber Family</h2>
+        </div>
+
+        <section id="members" class="w3-panel">
+            <h3 class="open"><i class="material-icons">portrait</i>Mark Weber</h3>
+            <div class="close">
+                <div class="w3-row">
+                    <div class="w3-quarter"><img src="images/mark.png" alt="Mark portrait"></div>
+                    <div class="w3-threequarter">
+                        <p>Vice President of Research and Development, Fresenius Kabi USA, Inc.
+                            M.S. Computer Science - DePaul University, 1995.  B.S. Electrical Engineering -
+                            Valparaiso University 1986.  Saints Peter &amp; Paul Catholic Church, Cary, IL -
+                            Eucharistic Minister, Confirmation Instructor, Service Group Mentor.  Enjoys FISHING,
+                            golfing, being outdoors, and a good beer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="open"><i class="material-icons">portrait</i>Janet Weber</h3>
+            <div class="close">
+                <div class="w3-row">
+                    <div class="w3-quarter"><img src="images/janet.png" alt="Janet portrait"></div>
+                    <div class="w3-threequarter">
+                        <p>Pursuing certificates in Mobile Application Development and Web Development from
+                            McHenry County College.  M.S. Computer Science - Villanova University, 1990.
+                            B.S. Computer Science &amp; Mathematics - Valparaiso University, 1986.
+                            Former Home School teacher and stay-at-home mom.  Volunteer at Informed Choices,
+                            Crystal Lake, IL.  Enjoys competitive sports, gardening, reading, and wine.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="open"><i class="material-icons">portrait</i>Christian Weber</h3>
+            <div class="close">
+                <div class="w3-row">
+                    <div class="w3-quarter"><img src="images/christian.png" alt="Christian portrait"></div>
+                    <div class="w3-threequarter">
+                        <p>Currently employed by TMC | A Division of C.H. Robinson as a Senior Logistics Analyst working
+                            in the West Loop area of Chicago and living in Rogers Park.  Graduate of Roosevelt University,
+                            Chicago, IL (Dec 2013) - B.A. Economics.  Has traveled to Mexico, London and Spain.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="open"><i class="material-icons">portrait</i>Joseph Weber</h3>
+            <div class="close">
+                <div class="w3-row">
+                    <div class="w3-quarter"><img src="images/joseph.png" alt="Joseph portrait"></div>
+                    <div class="w3-threequarter">
+                        <p>In fifth year of a five year program at Seton Hill University, Greensburg, PA pursuing
+                            B.S./M.S in Physician Assistant Studies.  In fifth rotation (of nine) - General Practice.
+                            Formerly employed by Chipotle in Greensburg.
+                            Former summer lifeguard at Cary Park District / Trout Valley and summer swim coach for
+                            Trails of Algonquin.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="open"><i class="material-icons">portrait</i>Aaron Weber</h3>
+            <div class="close">
+                <div class="w3-row">
+                    <div class="w3-quarter"><img src="images/aaron.png" alt="Aaron portrait"></div>
+                    <div class="w3-threequarter">
+                        <p>In fourth year at Quincy University, Quincy, IL pursuing B.S. in Aviation with
+                            two minors -  Communications and Management.  Employed as lifeguard and sports live
+                            video assistant at QU.  Summer lifeguard and swim coach at Boulder Ridge Country Club.
+                            Dating Krystal (4 years).
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="open"><i class="material-icons">portrait</i>Hannah Weber</h3>
+            <div class="close">
+                <div class="w3-row">
+                    <div class="w3-quarter"><img src="images/hannah.png" alt="Hannah portrait"></div>
+                    <div class="w3-threequarter">
+                        <p>Currently in third year at Lewis University, Romeoville, IL pursuing B.S. in Nursing.
+                            Plays soccer (outside and middle defense) for Lewis as red-shirt Sophomore (Tore ACL
+                            freshman year).  Summer lifeguard and head swim coach at Boulder Ridge Country Club.
+                            Enjoys fitness, shopping, crafts, and reading.  Dating Ryan (an only child!) for 1 year.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="open"><i class="material-icons">portrait</i>Nate Weber</h3>
+            <div class="close">
+                <div class="w3-row">
+                    <div class="w3-quarter"><img src="images/nate.png" alt="Nate portrait"></div>
+                    <div class="w3-threequarter">
+                        <p>Freshman at Valparaiso University seeking a B.S. in Computer Science.  Playing intramural soccer
+                            and club tennis.  Very involved with St. T's (St. Theresa's) high school youth group at Valpo.
+                            Summer manager/lifeguard at Cary Park District.  Enjoys computer gaming
+                            and junk food.  Dating Paige.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="open"><i class="material-icons">portrait</i>Luke Weber</h3>
+            <div class="close">
+                <div class="w3-row">
+                    <div class="w3-quarter"><img src="images/luke.png" alt="Luke portrait"></div>
+                    <div class="w3-threequarter">
+                        <p>Senior at Cary-Grove High School.  Playing varsity soccer and varsity tennis.
+                            Taking several honors and AP courses.  Participated in the German Exchange June 2016. Marvin
+                            will be a life-long friend and we anxiously anticipate a visit from the Buch family at some
+                            point during the summer of 2017.  Formerly interested in the field of Business
+                            (Sports Management), but AP Computer Science has changed his mind - YAY!  Summer lifeguard at
+                            Cary Park District.  Enjoys computer gaming and junk food.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div><!-- end container -->
+
+<script src="domscript.js"></script>
+</body>
+</html>

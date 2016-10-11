@@ -1,0 +1,60 @@
+body {
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    background: #444;
+    padding:10px; }
+
+h1,h2 {font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;  }
+
+h3 {font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /*text-align: left;*/
+    cursor: pointer;}
+
+.container {
+    max-width: 960px;
+    background-color: #EEE;
+    margin: 0 auto;
+    text-align: left;
+    color:#444; }
+
+img {width: 150px;
+    height: 150px;}
+
+p {padding-left:10px;
+    padding-right:10px;
+    text-align: left;}
+
+div.mybdr {border-style: solid;
+    border-width: 3px;
+    border-color: #444;}
+
+.head{  font-style:italic;
+    font-weight: bold;
+    text-align:center;
+    background-color:#444;
+    color: white; }
+
+.material-icons {
+    font-size: 1.5em;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.close {display: none;}
+.open {display: block;}
+
+/*
+img {width: 150px;
+    height: 150px;}
+#slideshow {background-color:#444;
+    width:550px;
+    height:700px;
+    text-align:center;
+    margin: 0 auto;
+    color:#EEE; }
+#main_image {border-color: #808080 ;
+    border-style: groove;
+    border-width: 10px;
+    width:250px;}
